@@ -21,9 +21,9 @@ public class Main {
         System.out.print("Enter the quantity of item 3: ");
         int quantity3 = input.nextInt();
 
-        float sub = ((price1 * quantity1) + (price2 * quantity2) + (price3 * quantity3));
-        float tax = (float) (sub * 0.055);
-        float total = sub + tax;
+        double sub = ((price1 * quantity1) + (price2 * quantity2) + (price3 * quantity3));
+        double tax = (float) (sub * 0.055);
+        double total = sub + tax;
 
         System.out.printf("Subtotal: $%.2f\n", sub);
         System.out.printf("Tax: $%.2f\n", tax);
